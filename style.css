@@ -1,0 +1,55 @@
+.main {
+    display: grid;
+    grid-template-areas: "one one one"
+                         "one one one"
+                         "two two two"
+                         "three three three"
+                         "four four four"
+                         "five five five"
+}
+.head{
+    display: flex;
+    position: absolute;
+    top: 6px;
+    right:0;
+}
+
+.one{
+    grid-area: one;
+}
+.google{
+    padding: 80 0 30 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.icon {
+    height: 38px;
+    width: 38px;
+    float: right;
+    padding: 10 17 0 0;
+}
+.sup{
+    min-width: 30px;
+    width:584;
+    border: 1px solid #f20315;
+    border-radius: 24px;
+    height: 40px;
+    margin : 5 15 5 15;
+    padding: 10 20 10 20;
+}
+.sub{
+    background-color: #5de65d;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 40px;
+    min-width: 214px;
+    text-align: center;
+    cursor: pointer;
+}
