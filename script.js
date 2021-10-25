@@ -37,5 +37,5 @@ function superSum() {
 }
 document.getElementById('inputButtThree').addEventListener('click', superSum);
 
-//7
+//71
 
