@@ -37,5 +37,11 @@ function superSum() {
 }
 document.getElementById('inputButtThree').addEventListener('click', superSum);
 
-//71
+//7
+function findMax() {
+    let nums = document.getElementById('iA').value;
+    numArray = nums.split(',');
+    alert(numArray)
+}
+
 
