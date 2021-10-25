@@ -1,33 +1,52 @@
 .main {
     display: grid;
     grid-template-areas: "one one one"
-                         "one one one"
                          "two two two"
                          "three three three"
                          "four four four"
                          "five five five"
 }
 .head{
-    display: flex;
-    position: absolute;
+    
+    position: relative;
     top: 6px;
-    right:0;
+    right:6px;
+}
+.prgrf{
+    margin: 5px;
+    float:left;
 }
 
 .one{
     grid-area: one;
+    background-color: rgba(191, 173, 132, 0.27);
+    margin: 5 0 5 0;
+    border-radius: 5px;
+}
+.two{
+    grid-area: two;
+    background-color: rgba(191, 173, 132, 0.27);
+    margin: 5 0 5 0;
+    border-radius: 5px; 
+}
+.three{
+    grid-area: three;
+    background-color: rgba(191, 173, 132, 0.27);
+    margin: 5 0 5 0;
+    border-radius: 5px; 
 }
 .google{
-    padding: 80 0 30 0;
+    padding: 80 0 30 35;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    margin-top: 30px;
 }
 .icon {
     height: 38px;
     width: 38px;
     float: right;
-    padding: 10 17 0 0;
+    padding: 5 10 5 5;
 }
 .sup{
     min-width: 30px;
@@ -45,7 +64,7 @@
     color: #3c4043;
     font-family: arial;
     font-size: 14px;
-    margin: 11px 4px;
+    margin: 5px 15px 5px 15px ;
     padding: 0 16px;
     line-height: 27px;
     height: 40px;
@@ -53,3 +72,18 @@
     text-align: center;
     cursor: pointer;
 }
+.inptone{
+    display: block;
+    height: 80px;
+    padding: 45px 0 0 0;
+    
+}
+.sum{
+    width: 70px;
+    border: 1px solid #f20315;
+    border-radius: 4px;
+    height: 40px;
+    text-indent: 3px;
+
+}   
+
