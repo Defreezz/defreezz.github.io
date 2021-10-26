@@ -54,8 +54,9 @@
         function superSum(a, b) {<br>
         a = Number(a);<br>
         b = Number(b);<br>
-        console.log(a + b);
-    }
+        let sum = a + b;<br>
+        console.log(sum);}<br>
+        superSum(3, 5);
             </code>
         <input id="inputB" class= "sum" type="number" placeholder="Число">
         <input id="inputButtThree" class="sub" type="button" value="Сложить">
@@ -63,10 +64,10 @@
         </center>
     </div>
     <div class="four">
-        <p class="prgrf">Задание 7. Цикл for находит максимальный и минимальный элементы в массиве</p>
+        <p class="prgrf">Задания 7,9,10 Цикл for находит максимальный и минимальный элементы в массиве. Alert с задержкой 3 секунды</p>
         <center>
         <div class="inptone">
-        <input id="iA" class= "massive" type="text" placeholder="Массив">
+        <input id="inputArray" class= "massive" type="text" placeholder="числа через запятую">
         <input id="iB" class="sub" type="button" value="findMax">
         <input id="iC" class="sub" type="button" value="findMin">
         </div>
@@ -76,10 +77,11 @@
         <p class="prgrf">Задание 8 Меняет значение переменных местами</p>
         <center>
         <div class="inptone">
-        <input id="iA" class= "sum" type="number" placeholder="Число">
-            <span>+</span>
-        <input id="iB" class= "sum" type="number" placeholder="Число">
-        <input id="iC" class="sub" type="button" value="Сложить">
+            <input id="inA" class= "sum" type="number" placeholder="A">
+            <input id="inB" class= "sum" type="number" placeholder="B">
+            <input id="inC" class="sub" type="button" value="Change">
+            <div class="out"><div id="outputArea_A"><p>a = </p></div></div>
+            <div class="out"><div id="outputArea_B"><p>b = </p></div></div>
         </div>
         </center>
     </div>

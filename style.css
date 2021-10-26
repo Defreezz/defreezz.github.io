@@ -86,7 +86,7 @@
 }
 .inptone{
     display: block;
-    height: 80px;
+    min-height: 180px;
     padding: 45px 0 0 0;
     
 }
@@ -99,7 +99,7 @@
 
 } 
 .massive{
-    width: 150px;
+    min-width: 150px;
     border: 1px solid #f20315;
     border-radius: 4px;
     height: 40px;
@@ -109,4 +109,7 @@
 .f{
     float: right;
     margin: 0 20px 0 0;
+}
+.out{
+    display: block
 }
