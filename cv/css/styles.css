@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 51, 51, 51;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -11432,4 +11432,37 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.bloko-tag_inline,
+.bloko-tag_countable {
+    display: inline-flex;
+    margin: 0 10px 10px 0;
+}
+
+.bloko-tag_inline {
+    width: auto;
+    margin: 0 8px 8px 0;
+    display: inline-flex;
+    max-width: 100%;
+}
+.bloko-tag__section {
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color: hsla(0,0%,80%,.3);
+    color: #666;
+    position: relative;
+    padding: 0;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+    > .bloko-icon {
+        position: absolute;
+        right: @tag-icon-padding;
+        top: 50%;
+        margin-top: -@control-icon-size / 2;
+    }
 }
