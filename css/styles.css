@@ -11453,10 +11453,12 @@ section.resume-section .resume-section-content {
     color: #666;
     position: relative;
     padding: 0;
-    height: 32px;
+    height: 52px;
     line-height: 30px;
     border: 1px solid transparent;
     box-sizing: border-box;
+    min-width: 150px;
+    width: 250px;
 }
 
     > .bloko-icon {
