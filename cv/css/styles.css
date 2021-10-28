@@ -42,6 +42,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 51, 51, 51;
+--bs-primaryt-rgb: 189, 93, 56;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -7381,6 +7382,9 @@ textarea.form-control-lg {
 .mb-5 {
   margin-bottom: 3rem !important;
 }
+.mb-6 {
+  margin-bottom: 1rem !important;
+}
 
 .mb-auto {
   margin-bottom: auto !important;
@@ -7719,7 +7723,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-primaryt-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-secondary {
@@ -11452,14 +11456,27 @@ section.resume-section .resume-section-content {
     background-color: hsla(0,0%,80%,.3);
     color: #666;
     position: relative;
-    padding: 0;
+    padding: 0 35px;
     height: 32px;
     line-height: 30px;
     border: 1px solid transparent;
+    border-radius: 5px;
     box-sizing: border-box;
+    min-width: 80px;
 }
+.bloko-tag__section_text {
+    display: inline-block;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    padding: 0 @tag-text-padding;
+    text-align: center;}
 
-    > .bloko-icon {
+.bloko-icon {
         position: absolute;
         right: @tag-icon-padding;
         top: 50%;

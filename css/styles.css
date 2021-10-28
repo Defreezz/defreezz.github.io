@@ -11446,19 +11446,21 @@ section.resume-section .resume-section-content {
     display: inline-flex;
     max-width: 100%;
 }
+
 .bloko-tag__section {
     flex-shrink: 0;
     flex-grow: 0;
     background-color: hsla(0,0%,80%,.3);
     color: #666;
     position: relative;
-    padding: 0;
+    padding: 0 15px;
     height: 52px;
     line-height: 30px;
     border: 1px solid transparent;
     box-sizing: border-box;
     min-width: 150px;
     width: 250px;
+    
 }
 
     > .bloko-icon {
