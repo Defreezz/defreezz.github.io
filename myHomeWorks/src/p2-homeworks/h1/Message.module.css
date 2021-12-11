@@ -1,0 +1,55 @@
+.body {
+    background-color: #5ebdd9;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    max-width: 400px;
+    min-width: 350px;
+    height: 110px;
+    display: flex;
+    align-items: flex-end;
+    /*position: relative;*/
+}
+
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 0 5px 5px;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(19, 23, 22, 0.7) 0);
+    margin-bottom: 5px;
+}
+
+.messageBlock {
+    background-color: rgba(19, 23, 22, 0.7);
+    margin: 10px 5px 5px 80px;
+    border-radius: 10px 10px 10px 0;
+    padding: 5px 10px 5px;
+    /*box-shadow: 0 0 5px #000;*/
+    position: absolute;
+    max-width: 350px;
+}
+
+.name {
+    color: #61dafb;
+    font-weight: bold;
+    padding: 1px 1px 1px 4px;
+}
+
+.message {
+    color: #61dafb;
+    padding: 5px;
+    word-wrap: break-word;
+}
+
+.time {
+    float: right;
+    color: #dbe2e7;
+
+}

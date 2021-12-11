@@ -1,0 +1,65 @@
+
+.wrapper{
+    max-width: 400px;
+    min-width: 350px;
+    min-height: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #5ebdd9;
+    color: #282c34;
+    position: relative;
+}
+
+.affair {
+    margin-bottom: 5px;
+    padding: 5px;
+
+}
+
+.affairName {
+    background-color: #dbe2e7;
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 6px;
+    padding: 8px;
+    border-radius: 6px;
+    width: 105px;
+
+}
+
+.priorityHigh{
+    background-color: red;
+    color: #dbe2e7;
+    display: inline-block;
+    margin-right: 6px;
+    padding: 4px;
+    width: 55px;
+    text-align: center;
+}
+.priorityMiddle{
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 6px;
+    padding: 4px;
+    width: 55px;
+    text-align: center;
+}
+.priorityLow{
+    background-color: green;
+    display: inline-block;
+    margin-right: 6px;
+    padding: 4px;
+    width: 55px;
+    text-align: center;
+}
+.buttons {
+    position: absolute;
+    bottom: 0px;
+
+}
+
+
+.buttonOther {
+    background-color: rgba(48, 76, 18, 0.8);
+    color: #dbe2e7;
+}

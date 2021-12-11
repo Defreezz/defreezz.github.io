@@ -1,0 +1,33 @@
+.wrapper {
+    width: 450px;
+    min-height: 60px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #3d5960;
+}
+
+
+.defaultInput {
+    border: 2px;
+    margin: 7px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.errorInput {
+    margin: 5px;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: rgba(134, 62, 69, 0.82)
+}
+
+.error {
+    color: red;
+    margin-left: 4px;
+
+}
+.button {
+    padding: 4px;
+    border-radius: 4px;
+}
